@@ -4,6 +4,8 @@ I discovered [this Youtube video by Equalo where he makes an Animal Crossing sty
 
 The letter sounds are taken from [his animalese-generator repo here](https://github.com/equalo-official/animalese-generator).
 
+Checkout [this Reddit post](https://www.reddit.com/r/godot/comments/gqyhal/i_created_a_gdscript_animal_crossing_style/) to see a video of it in action!
+
 
 ## Usage
 1. Add ACVoicebox.tscn to your scene.
