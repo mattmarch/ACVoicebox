@@ -7,7 +7,7 @@ onready var voicebox: ACVoiceBox = $ACVoicebox
 onready var conversation = [
     [$Label1, "Hey look, I've made this Animal Crossing style conversation player in Godot!", 4.0],
     [$Label2, "Wow, this would be great for placeholder dialogue sounds in my project! How can I use this?", 3.0],
-    [$Label3, "Check out the instructions on the repo at https://github.com/mattmarch/ACVoiceBox", 4.0],
+    [$Label3, "Check out the instructions on the repo at https://github.com/mattmarch/ACVoicebox", 4.0],
     [$Label4, "Awesome, I'll have a look. Thanks a lot!", 3.0]
    ]
 
