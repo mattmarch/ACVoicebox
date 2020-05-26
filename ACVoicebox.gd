@@ -49,8 +49,6 @@ var remaining_sounds := []
 
 func _ready():
     connect("finished", self, "play_next_sound")
-    var in_string = 'Hi There. I am good. How are you?'
-    play_string(in_string)
 
 
 func play_string(in_string: String):
