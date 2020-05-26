@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/j.wav-d9e0eab5f44874c2f4ca7d2c6da642d6.sample"
+
+[deps]
+
+source_file="res://Sounds/j.wav"
+dest_files=[ "res://.import/j.wav-d9e0eab5f44874c2f4ca7d2c6da642d6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

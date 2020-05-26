@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/l.wav-0916d884665c1a289c65bc3d36538e0f.sample"
+
+[deps]
+
+source_file="res://Sounds/l.wav"
+dest_files=[ "res://.import/l.wav-0916d884665c1a289c65bc3d36538e0f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
