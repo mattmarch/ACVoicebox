@@ -14,37 +14,37 @@ __meta__ = {
 [node name="ACVoicebox" parent="." instance=ExtResource( 2 )]
 
 [node name="Label1" type="Label" parent="."]
-margin_left = 23.0
-margin_top = 25.0
-margin_right = 485.0
-margin_bottom = 127.0
+offset_left = 23.0
+offset_top = 25.0
+offset_right = 485.0
+offset_bottom = 127.0
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 484.0
-margin_top = 142.0
-margin_right = 1004.0
-margin_bottom = 243.0
+offset_left = 484.0
+offset_top = 142.0
+offset_right = 1004.0
+offset_bottom = 243.0
 autowrap = true
 
 [node name="Label3" type="Label" parent="."]
-margin_left = 58.0336
-margin_top = 263.085
-margin_right = 431.034
-margin_bottom = 417.085
+offset_left = 58.0336
+offset_top = 263.085
+offset_right = 431.034
+offset_bottom = 417.085
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label4" type="Label" parent="."]
-margin_left = 548.0
-margin_top = 402.0
-margin_right = 976.0
-margin_bottom = 511.0
+offset_left = 548.0
+offset_top = 402.0
+offset_right = 976.0
+offset_bottom = 511.0
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
