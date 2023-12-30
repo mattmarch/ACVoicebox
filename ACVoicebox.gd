@@ -48,7 +48,7 @@ var remaining_sounds := []
 
 
 func _ready():
-    connect("finished", Callable(self, "play_next_sound"))
+    connect("finished", play_next_sound)
 
 
 func play_string(in_string: String):
@@ -77,7 +77,7 @@ func parse_input_string(in_string: String):
     for word in in_string.split(' '):
         parse_word(word)
         add_symbol(' ', ' ', false)
-    
+  
 
 func parse_word(word: String):
     var skip_char := false
