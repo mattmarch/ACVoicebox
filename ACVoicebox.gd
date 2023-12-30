@@ -8,7 +8,7 @@ signal finished_phrase()
 const PITCH_MULTIPLIER_RANGE := 0.3
 const INFLECTION_SHIFT := 0.4
 
-export(float, 2.5, 4.5) var base_pitch := 3.5
+@export var base_pitch := 3.5 # (float, 2.5, 4.5)
 
 const sounds = {
     'a': preload('res://Sounds/a.wav'),
@@ -48,7 +48,7 @@ var remaining_sounds := []
 
 
 func _ready():
-    connect("finished", self, "play_next_sound")
+    connect("finished", Callable(self, "play_next_sound"))
 
 
 func play_string(in_string: String):
@@ -66,7 +66,7 @@ func play_next_sound():
     if next_symbol.sound == '':
         play_next_sound()
         return
-    var sound: AudioStreamSample = sounds[next_symbol.sound]
+    var sound: AudioStreamWAV = sounds[next_symbol.sound]
     # Add some randomness to pitch plus optional inflection for end word in questions
     pitch_scale = base_pitch + (PITCH_MULTIPLIER_RANGE * randf()) + (INFLECTION_SHIFT if next_symbol.inflective else 0.0)
     stream = sound
