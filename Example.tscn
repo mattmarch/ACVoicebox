@@ -1,51 +1,41 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=3 format=3 uid="uid://c0672p5njmhar"]
 
-[ext_resource path="res://ExampleConversation.gd" type="Script" id=1]
-[ext_resource path="res://ACVoicebox.tscn" type="PackedScene" id=2]
+[ext_resource type="Script" path="res://ExampleConversation.gd" id="1"]
+[ext_resource type="PackedScene" path="res://ACVoicebox.tscn" id="2"]
 
 [node name="Example" type="Control"]
+layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-script = ExtResource( 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+script = ExtResource("1")
 
-[node name="ACVoicebox" parent="." instance=ExtResource( 2 )]
+[node name="ACVoicebox" parent="." instance=ExtResource("2")]
 
 [node name="Label1" type="Label" parent="."]
+layout_mode = 0
 offset_left = 23.0
 offset_top = 25.0
 offset_right = 485.0
 offset_bottom = 127.0
-autowrap = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Label2" type="Label" parent="."]
+layout_mode = 0
 offset_left = 484.0
 offset_top = 142.0
 offset_right = 1004.0
 offset_bottom = 243.0
-autowrap = true
 
 [node name="Label3" type="Label" parent="."]
+layout_mode = 0
 offset_left = 58.0336
 offset_top = 263.085
 offset_right = 431.034
 offset_bottom = 417.085
-autowrap = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Label4" type="Label" parent="."]
+layout_mode = 0
 offset_left = 548.0
 offset_top = 402.0
 offset_right = 976.0
 offset_bottom = 511.0
-autowrap = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
