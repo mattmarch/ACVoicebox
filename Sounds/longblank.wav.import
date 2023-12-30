@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/longblank.wav-00d0665039dbb8669146ff79ae2911a3.sample"
+type="AudioStreamWAV"
+uid="uid://cvoehesaypm2q"
+path="res://.godot/imported/longblank.wav-00d0665039dbb8669146ff79ae2911a3.sample"
 
 [deps]
 
 source_file="res://Sounds/longblank.wav"
-dest_files=[ "res://.import/longblank.wav-00d0665039dbb8669146ff79ae2911a3.sample" ]
+dest_files=["res://.godot/imported/longblank.wav-00d0665039dbb8669146ff79ae2911a3.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

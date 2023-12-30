@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/f.wav-0109bad8aa3b41c5780114c3117accab.sample"
+type="AudioStreamWAV"
+uid="uid://cmyd4lcuo7nfc"
+path="res://.godot/imported/f.wav-0109bad8aa3b41c5780114c3117accab.sample"
 
 [deps]
 
 source_file="res://Sounds/f.wav"
-dest_files=[ "res://.import/f.wav-0109bad8aa3b41c5780114c3117accab.sample" ]
+dest_files=["res://.godot/imported/f.wav-0109bad8aa3b41c5780114c3117accab.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0
