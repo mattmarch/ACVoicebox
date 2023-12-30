@@ -6,6 +6,7 @@ The letter sounds are taken from [his animalese-generator repo here](https://git
 
 Checkout [this Reddit post](https://www.reddit.com/r/godot/comments/gqyhal/i_created_a_gdscript_animal_crossing_style/) to see a video of it in action!
 
+This has been upgraded to Godot 4 thanks to [Alex](https://github.com/alexQueue), for the earlier Godot 3 version check out the `godot-3` tag!
 
 ## Usage
 1. Add ACVoicebox.tscn to your scene.
